@@ -1,11 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
-body {
-    background: -webkit-linear-gradient(#93B874, #C9DCB9);
-    background: -o-linear-gradient(#93B874, #C9DCB9);
-    background: -moz-linear-gradient(#93B874, #C9DCB9);
-    background: linear-gradient(#93B874, #C9DCB9);
-    background-color: #93B874;
-    }
 *{
   margin: 0;
   padding: 0;
@@ -45,6 +38,90 @@ html,body{
   line-height: 60px;
   transition: all 0.3s ease-out;
 }
+/* classe nova wrapper1 */
+.wrapper1 .button{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  float: left;
+  margin: 0 5px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-out;
+}
+.wrapper1 .button:hover{
+  width: 200px;
+}
+.wrapper1 .button .icon{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+/* continuação original */
+/* classe nova wrapper1 */
+.wrapper1 .button1{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  float: left;
+  margin: 0 5px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-out;
+}
+.wrapper1 .button1:hover{
+  width: 310px;
+}
+.wrapper1 .button1 .icon{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+/* continuação original */
+/* classe nova wrapper1 */
+.wrapper1 .button2{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  float: left;
+  margin: 0 5px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-out;
+}
+.wrapper1 .button2:hover{
+  width: 260px;
+}
+.wrapper1 .button2 .icon{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+/* continuação original */
 .wrapper .button:nth-child(1):hover .icon{
   background: #4267B2;
 }
@@ -60,6 +137,21 @@ html,body{
 .wrapper .button:nth-child(5):hover .icon{
   background: #ff0000;
 }
+.wrapper .button:nth-child(6):hover .icon{
+  background: #0A66C2;
+}
+.wrapper1 .button:nth-child(1):hover .icon{
+  background: #00BFA5;
+}
+.wrapper1 .button2:nth-child(2):hover .icon{
+  background: #333;
+}
+.wrapper1 .button1:nth-child(3):hover .icon{
+  background: #ff0000;
+}
+.wrapper1 .button:nth-child(4):hover .icon{
+  background: #3390EC;
+}
 .wrapper .button .icon i{
   font-size: 25px;
   line-height: 60px;
@@ -68,28 +160,38 @@ html,body{
 .wrapper .button:hover .icon i{
   color: #fff;
 }
-.wrapper .button span{
-  font-size: 20px;
-  font-weight: 500;
+
+/* classe nova wrapper1*/
+.wrapper1 .button .icon i{
+  font-size: 25px;
   line-height: 60px;
-  margin-left: 10px;
   transition: all 0.3s ease-out;
 }
-.wrapper .button:nth-child(1) span{
-  color: #4267B2;
+.wrapper1 .button:hover .icon i{
+  color: #fff;
 }
-.wrapper .button:nth-child(2) span{
-  color: #1DA1F2;
+/* classe nova wrapper1*/
+/* classe nova wrapper1*/
+.wrapper1 .button1 .icon i{
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
 }
-.wrapper .button:nth-child(3) span{
-  color: #E1306C;
+.wrapper1 .button1:hover .icon i{
+  color: #fff;
 }
-.wrapper .button:nth-child(4) span{
-  color: #333;
+/* classe nova wrapper1*/
+/* classe nova wrapper1*/
+.wrapper1 .button2 .icon i{
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
 }
-.wrapper .button:nth-child(5) span{
-  color: #ff0000;
+.wrapper1 .button2:hover .icon i{
+  color: #fff;
 }
+/* classe nova wrapper1*/
+
 /*facebook link melhorar*/
 a.sem:link{
     text-decoration: none;
@@ -250,6 +352,105 @@ a.sem4:visited{
 a.sem4:active{
     text-decoration: none;
     color: #ff0000;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+}
+/*linkedin link melhorar*/
+a.sem5:link{
+    text-decoration: none;
+    color: #0A66C2;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+}
+a.sem5:hover{
+    text-decoration: none;
+    color: #0A66C2;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+}
+a.sem5:visited{
+    text-decoration: none;
+    color: #0A66C2;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+}
+a.sem5:active{
+    text-decoration: none;
+    color: #0A66C2;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+}
+/*whatsapp link melhorar*/
+a.sem6:link{
+    text-decoration: none;
+    color: #00BFA5;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+}
+a.sem6:hover{
+    text-decoration: none;
+    color: #00BFA5;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+}
+a.sem6:visited{
+    text-decoration: none;
+    color: #00BFA5;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+}
+a.sem6:active{
+    text-decoration: none;
+    color: #00BFA5;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+}
+/*telegram link melhorar*/
+a.sem7:link{
+    text-decoration: none;
+    color: #3390EC;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+}
+a.sem7:hover{
+    text-decoration: none;
+    color: #3390EC;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+}
+a.sem7:visited{
+    text-decoration: none;
+    color: #3390EC;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+}
+a.sem7:active{
+    text-decoration: none;
+    color: #3390EC;
     font-size: 20px;
     font-weight: 500;
     line-height: 60px;
