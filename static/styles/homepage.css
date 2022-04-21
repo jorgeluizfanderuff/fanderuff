@@ -459,3 +459,11 @@ a.sem7:active{
     line-height: 60px;
     margin-left: 10px;
 }
+h2.serviços {
+
+    font-size: 20px;
+}
+h2.serviços:hover {
+    color: #ffffff;
+    background-color: green;
+}
